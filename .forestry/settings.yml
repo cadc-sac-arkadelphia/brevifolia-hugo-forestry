@@ -26,6 +26,11 @@ sections:
   match: "**/*"
   templates:
   - about-page
+- type: document
+  path: content/legal/terms.md
+  label: Terms of Use
+  match: "**/*"
+  read_only: false
 - type: heading
   label: Config
 - type: document
