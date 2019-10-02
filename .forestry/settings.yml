@@ -19,6 +19,13 @@ sections:
 - type: document
   path: content/data/authors.yaml
   label: Authors List
+- type: directory
+  path: content/legal
+  label: Legal Notices
+  create: all
+  match: "**/*"
+  templates:
+  - about-page
 - type: heading
   label: Config
 - type: document
